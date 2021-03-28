@@ -72,7 +72,7 @@ Store the value in the variable test_predictions
 """
 print('Testing model...', end=' ')
 ### 3. Your code starts here
-test_predictions=model.predict(X_train)
+test_predictions=model.predict(X_test)
 ### 3. Your code ends here
 
 acc = (test_predictions == y_test).mean()
